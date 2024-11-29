@@ -1,0 +1,25 @@
+config:
+  target: http://127.0.0.1:4000
+  phases:
+    - duration: 1
+      arrivalRate: 1
+      rampTo: 5
+      name: Warm up phase
+    #- duration: 10
+      #arrivalRate: 5
+      #rampTo: 10
+      #name: Ramp up load
+    #- duration: 10
+      #arrivalRate: 10
+      #rampTo: 30
+      #name: Spike phase 
+      
+  config:
+
+  engines:
+    playwright: {}
+  # Path to JavaScript file that defines Playwright test functions
+  processor: './flows2.cjs'
+scenarios:
+  - engine: playwright
+    testFunction: 'myTestFlow'
