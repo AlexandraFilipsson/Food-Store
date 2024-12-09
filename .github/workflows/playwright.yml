@@ -1,4 +1,4 @@
-name: Node.js CI
+name: playwright.yml
 
 # Trigger which git action (push, pull_request)
 # in which branch(es) should start the jobs...
