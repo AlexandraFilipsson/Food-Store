@@ -1,10 +1,10 @@
 name: Playwright Tests
 on:
   push:
-    branches: [ main, master, food-store-artillery ]
+    branches: [ main, food-store-artillery ]
   
   pull_request:
-    branches: [ main, master, food-store-artillery ]
+    branches: [ main, food-store-artillery ]
 jobs:
   test:
     timeout-minutes: 60
