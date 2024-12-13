@@ -1,6 +1,3 @@
-# Folder for "compiled features" (for dynamic scenario outlines)
-__temp
-
 # Logs
 logs
 *.log
