@@ -4,9 +4,9 @@ name: playwright.yml
 # in which branch(es) should start the jobs...
 on:
   push:
-    branches: [main, food-store-artillery]
+    branches: [main, food-store-artillery-playwright]
   pull_request:
-    branches: [main, food-store-artillery]
+    branches: [main, food-store-artillery-playwright]
 
 # jobs to run
 jobs:
