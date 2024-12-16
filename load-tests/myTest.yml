@@ -19,7 +19,7 @@ config:
   engines:
     playwright: {}
   # Path to JavaScript file that defines Playwright test functions
-  processor: './flows2.cjs'
+  processor: './shopping.cjs'
 scenarios:
   - engine: playwright
     testFunction: 'myTestFlow'

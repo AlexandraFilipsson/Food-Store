@@ -1,9 +1,7 @@
 module.exports = { myTestFlow };
 
 async function myTestFlow(page) {
-  //
-  // The code below is just a standard Playwright script:
-  //
+
   await page.goto('http://127.0.0.1:4000/');
   await page.getByRole('link', { name: 'Mejeri, ost & ägg' }).click();
   await page.getByRole('link', { name: 'Ost', exact: true }).click();
@@ -24,4 +22,17 @@ async function myTestFlow(page) {
   await page.getByRole('link', { name: 'Hem & Städ' }).click();
   await page.getByRole('link', { name: 'Grill' }).click();
   await page.getByRole('heading', { name: 'Tändare Bras Och Grill' }).click();
+
+  await page.getByRole('link', { name: 'Dryck' }).click();
+  await page.getByRole('link', { name: 'Kaffe', exact: true }).click();
+  await page.getByRole('heading', { name: 'Supremo 10 Kaffekapslar' }).click();
+  await page.getByRole('link', { name: 'Te & choklad' }).click();
+  await page.getByRole('heading', { name: 'Mango & Citrus Te' }).click();
+  await page.getByRole('link', { name: 'Juice, fruktdryck & smoothie' }).click();
+  await page.getByRole('link', { name: 'Kyld fruktdryck', exact: true }).click();
+  await page.getByRole('heading', { name: 'Nypon Fruktdryck' }).click();
+  await page.getByRole('link', { name: 'Kyld juice & nektar', exact: true }).click();
+  await page.getByRole('heading', { name: 'Äpplejuice', exact: true }).click();
+  await page.getByRole('link', { name: 'Smoothies' }).click();
+  await page.getByRole('heading', { name: 'Banan Jordgubb Havre Smoothie' }).click();
 }

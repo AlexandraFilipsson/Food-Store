@@ -15,5 +15,6 @@ test('test', async ({ page }) => {
   await page.getByRole('link', { name: 'Smoothies' }).click();
   await page.getByRole('heading', { name: 'Banan Jordgubb Havre Smoothie' }).click();
 });
+//inne i shopping
 
 
