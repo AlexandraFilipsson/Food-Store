@@ -1,7 +1,6 @@
 {
   "yaml.schemas": {
     "https://www.artillery.io/schema.json": [
-      "file:///Users/thomasfrank/Desktop/endpoint-testning-mataffaren/load-tests/basic.yml",
       "file:///c%3A/Users/alexa/GitHub/Food-Store/load-tests/basic.yml",
       "file:///c%3A/Users/alexa/GitHub/Food-Store/load-tests/helloWorld.yml",
       "file:///c%3A/Users/alexa/GitHub/Food-Store/load-tests/myTest.yml"
